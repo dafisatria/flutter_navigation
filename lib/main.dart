@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_navigation/part%201/screen.dart';
+import 'package:flutter_navigation/navigations/screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       home: Scaffold(
-        body: NavPart1(),
+        body: FirstRoute(),
       ),
     );
   }
